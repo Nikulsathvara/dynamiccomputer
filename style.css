@@ -1,0 +1,566 @@
+body {
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+header .orange {
+    display: flex;
+    background-color: orangered;
+    height: 7vw;
+    
+}
+
+header .round-logo-container {
+    display: flex;
+    width: 10vw;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header .round-logo {
+    width: 6vw;
+    
+}
+
+header .heading-text h1 {
+    font-size: 3vw;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    
+}
+
+header .heading-text h3 {
+    font-size: 1.5vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-bottom: .2em;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+/* Login page Design */
+
+.blue {
+    display: flex;
+    background-color: rgb(0, 132, 255);
+    height: 4vw;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: auto;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    font-weight: bolder;
+    box-shadow: inset 0px 10px 10px 0px rgba(0,0,0,.5);
+}
+
+.blue .login-title {
+    font-size: 1.5vw;
+}
+
+.login-tile-container {
+    display: flex;
+    justify-content: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.login-logo, .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 60vh;
+    border: 1px;
+    border-color: rgb(209, 209, 209);
+    border-style: solid;
+    border-radius: 2em;
+    margin-right: 1em;
+    /* box-shadow: inset 0px 0px 20px 1px rgba(0,0,0,1); */
+
+}
+.login-logo img{
+    height: 80%;
+    width: 20vw;
+}
+.login-human {
+    display: flex;
+    justify-content: center;
+    
+  
+}
+.login-human img {
+    height: 5vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: orangered;
+    border-width: 2px;
+    
+}
+
+.login-form {
+display: flex;
+flex-direction: column;
+padding: 0px 2em 0px 2em;
+/* margin-left: 2em; */
+width: 80%;
+
+}
+
+.login-form label {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+}
+.input-box {
+    width: 90%;
+    height: 7vh;
+    border-radius: 20px;
+    background-color: none;
+    border-style: none;
+    background-color: rgb(218, 237, 255);
+    padding-left: 2vw;
+
+}
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+.password-container img {
+    height: 1em;
+    margin-left: -2em;
+    opacity: .3;
+}
+.password-container img:hover {
+    opacity: 1;
+    
+}
+
+.input-box::placeholder {
+    font-weight: lighter;
+    font-size: 1.2em;
+    opacity: .5;
+    text-align: left;
+
+}
+
+.input-box:hover {
+    background-color: rgb(172, 215, 255);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.login-container .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    
+}
+
+.login-container button {
+    padding: .7em;
+    width: 50%;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 35px;
+    border-style: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+   
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+/* start-exam design */
+
+.blue {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .blue .human-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .blue .human-pic img {
+    width: 2.5vw;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+main .blue .name-col, .date-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw; 
+    
+}
+
+main .blue .button {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+}
+
+main .blue .button button {
+    width: 8vw;
+    padding: .6em;
+    border-radius: 3em;
+    border-style: solid;
+    border-color: white;
+    font-size: 1vw;
+    font-weight: bolder;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 3px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.button button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+   
+}
+
+.button button:active {
+    box-shadow: 0 2px #ffffff;
+    transform: translateY(2px);
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.table-container table {
+    
+    margin-top: 1vw;
+    background: rgb(255,85,0);
+    background: linear-gradient(45deg, rgba(255,85,0,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(0,116,255,1) 100%);   
+    border-collapse: collapse;
+    min-width: 400px;
+    font-size: 1.5vw;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 1em;
+
+}
+
+.table-container th, tr {
+    width: 50%;
+    border: 1px solid rgb(182, 182, 182);
+    padding: .5vw;
+}
+
+.table-container button {
+    margin-top: .5em;
+    padding: .2em;
+    width: 20%;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    font-size: 2vw;
+    font-weight: bolder;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 3px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.table-container button:hover {
+    background-color: rgb(0, 132, 255);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+   
+}
+
+.table-container button:active {
+    box-shadow: 0 2px #000000;
+    transform: translateY(2px);
+}
+
+/* exam-desk design */
+
+.container {
+    display: flex;
+    width: 100%;
+
+}
+.question-container {
+    margin-left: 5vw;
+    margin-top: 2vw;
+    width: 50%;
+    
+  
+}
+
+.question-container span {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.question-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: orangered;
+}
+
+.question-container input, label {
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 132, 255);
+}
+
+.question-button {
+    margin-top: 25px;
+}
+.question-container button {
+    margin: 10px;
+    padding: 10px 25px;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 35px;
+    border-style: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.question-layout, .summery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+    width: 100%;
+    
+}
+
+.question-layout > .title {
+    background-color: rgb(0, 132, 255);
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.questions {
+    padding-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 40px;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+
+.questions  div {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.questions div:hover {
+    background-color: #666;
+
+}
+
+
+.indication {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+   
+}
+
+.indication div {
+    margin-left: 20px;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+   
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: orangered;
+    width: 100%;
+}
+
+footer .address, .copyright {
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .login-tile-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .login-logo, .login-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+        height: 35vh;
+        border: 1px;
+        border-color: rgb(209, 209, 209);
+        border-style: solid;
+        border-radius: 20px;
+        margin-bottom: 2vh;
+        box-shadow: inset 0px 0px 20px 1px rgba(0,0,0,1);
+    
+    }
+
+    .login-logo img{
+        height: 24vh;
+        width: 55vw;
+    }
+    
+    .login-human img {
+        height: 7vh;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: orangered;
+        border-width: 2px;
+        
+    }
+    
+    .login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 2em 0px 2em;
+    margin-left: 1em;
+    width: 80%;
+    
+    }
+    
+    label {
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        font-size: 1em;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: orangered;
+    }
+    .input-box {
+        width: 53vw;
+        height: 4vh;
+        border-radius: 20px;
+        background-color: none;
+        border-style: none;
+        background-color: rgb(218, 237, 255);
+        padding-left: 1vw;
+    }
+
+    .login-container button {
+        margin-top: 3vh;
+        margin-left: -2em;
+        padding: .7em;
+        width: 50%;
+        font-size: 1em;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 35px;
+        border-style: none;
+        background-color: orangered;
+        color: white;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .question-container {
+        width: 100%;
+    }
+    
+    
+}
+
